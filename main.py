@@ -84,8 +84,7 @@ class surface:
         for i in range(len(self.vlist)):
             self.vlist[i].setscreencoord(self.viewpoint, c1, c2, dist)
         #Соотносим ребра с их координатами
-        for i in range(len(self.elist)):
-            self.elist[i] 
+        for i in range(len(self.elist)): 
             e = edge(self.vlist[self.elist[i][0]-1], self.vlist[self.elist[i][1]-1])
             e.drawedge(win)
 
