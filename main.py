@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 28 18:52:07 2021
 
-@author: lilyp_032u5e1
-"""
 from graphics import *
 from math import *
 import time
